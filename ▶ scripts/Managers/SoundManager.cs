@@ -10,27 +10,17 @@ public class SoundManager : MonoBehaviour
     public AudioSource audioSource;
 
     //references
-    public AudioClip scoreUpdate;
-    public AudioClip money;
-    public AudioClip putSomething;
-    public AudioClip somethingGood;
-    public AudioClip somethingBad;
-    public AudioClip talking;
-    public AudioClip jump;
-    public AudioClip walk;
 
-    public AudioClip finalSound;
+    // CRUD
+    public AudioClip create, read, update, delete;
+
+    // EMOTIONS
+    public AudioClip good, bad, alert, calm;
 
     public enum SoundType
     {
-        scoreUpdate,
-        money,
-        putSomething,
-        somethingGood,
-        somethingBad,
-        talking,
-        jump,
-        walk,
+        create, read, update, delete,
+        good, bad, alert, calm,
     }
 
     private void Awake()
@@ -62,34 +52,36 @@ public class SoundManager : MonoBehaviour
 
         switch (st)
         {
-            case SoundType.scoreUpdate:
-                theSound.clip = scoreUpdate;
+            case SoundType.create:
+                theSound.clip = create;
                 break;
-            case SoundType.money:
-                theSound.clip = money;
+            case SoundType.read:
+                theSound.clip = read;
                 break;
-            case SoundType.putSomething:
-                theSound.clip = putSomething;
+            case SoundType.update:
+                theSound.clip = update;
                 break;
-            case SoundType.somethingGood:
-                theSound.clip = somethingGood;
+            case SoundType.delete:
+                theSound.clip = delete;
                 break;
-            case SoundType.somethingBad:
-                theSound.clip = somethingBad;
+
+            case SoundType.good:
+                theSound.clip = good;
                 break;
-            case SoundType.talking:
-                theSound.clip = talking;
+            case SoundType.bad:
+                theSound.clip = bad;
                 break;
-            case SoundType.jump:
-                theSound.clip = jump;
+            case SoundType.alert:
+                theSound.clip = alert;
                 break;
-            case SoundType.walk:
-                theSound.clip = walk;
+            case SoundType.calm:
+                theSound.clip = calm;
                 break;
+
             default:
                 break;
 
-                
+
         }
 
         theSound.Play();

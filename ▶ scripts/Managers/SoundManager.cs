@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundManager : MonoBehaviour
+public class SoundManagerOLD : MonoBehaviour
 {
-    public static SoundManager instance;
+    public static SoundManagerOLD instance;
 
     //audioListener
     public AudioSource audioSource;

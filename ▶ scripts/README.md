@@ -1,5 +1,5 @@
 # unity-assets
-a folder whit a few unity common assets
+a simple repo for unity-common-assets
 
 you can:
 

@@ -1,67 +1,69 @@
-#TODO
-Gestión de Jugador y Movimiento
-PlayerInput
-PlayerMovement
-PlayerJump
-DashAbility
-RigidbodyController
+# TODO
 
-Cámara y Visibilidad
-CameraFollow
-CameraShake
-ThirdPersonCamera
-CameraZoom
+## 🕹️ Gestión de Jugador y Movimiento
+- PlayerInput
+- PlayerMovement
+- PlayerJump
+- DashAbility
+- RigidbodyController
 
-Salud y Daño
-HealthSystem
-Damageable
-HealthBar
-InvincibilityFrame
+## 🎥 Cámara y Visibilidad
+- CameraFollow
+- CameraShake
+- ThirdPersonCamera
+- CameraZoom
 
-Inventario y Objetos
-InventorySystem
-InventoryItem
-ItemPickup
-ItemDrop
-ItemUse
+## ❤️ Salud y Daño
+- HealthSystem
+- Damageable
+- HealthBar
+- InvincibilityFrame
 
-IA y Enemigos
-EnemyAI
-EnemyPatrol
-EnemyChase
-EnemyAttack
-EnemyHealth
+## 🎮 Inventario y Objetos
+- InventorySystem
+- InventoryItem
+- ItemPickup
+- ItemDrop
+- ItemUse
 
-Animaciones
-AnimatorController
-PlayerAnimator
-AnimationEventHandler
-BlendTreeControl
-AnimationStateMachine
-Sonido
-AudioManager
-MusicManager
-SoundEffectManager
-AudioSourceController
-BackgroundMusic
+## 🤖 IA y Enemigos
+- EnemyAI
+- EnemyPatrol
+- EnemyChase
+- EnemyAttack
+- EnemyHealth
 
-Interfaz de Usuario (UI)
-UIManager
-HUDController
-PauseMenu
-GameOverScreen
-ScoreManager
+## 🎬 Animaciones
+- AnimatorController
+- PlayerAnimator
+- AnimationEventHandler
+- BlendTreeControl
+- AnimationStateMachine
 
-Eventos y Gestión de Estado
-EventManager
-GameStateManager
-Timer
-LevelManager
-SaveSystem
+## 🎶 Sonido
+- AudioManager
+- MusicManager
+- SoundEffectManager
+- AudioSourceController
+- BackgroundMusic
 
-Utilidades Generales
-ObjectPooling
-Timer
-MathUtils
-Singleton
-Logger
+## 🖥️ Interfaz de Usuario (UI)
+- UIManager
+- HUDController
+- PauseMenu
+- GameOverScreen
+- ScoreManager
+
+## 📅 Eventos y Gestión de Estado
+- EventManager
+- GameStateManager
+- Timer
+- LevelManager
+- SaveSystem
+
+## 🔧 Utilidades Generales
+- ObjectPooling
+- Timer
+- MathUtils
+- Singleton
+- Logger

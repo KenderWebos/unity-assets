@@ -1,5 +1,6 @@
 {
-    "name": "2dCharacterActions",
+    "version": 1,
+    "name": "CharacterActions",
     "maps": [
         {
             "name": "Player",

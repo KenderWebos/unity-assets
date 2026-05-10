@@ -44,7 +44,7 @@ public class Item : MonoBehaviour //customEditor
     // Start is called before the first frame update
     void Start()
     {
-        gm = GameManager.instance;
+        gm = GameManager.Instance;
 
         if (type == itemType.cultivo)
         {

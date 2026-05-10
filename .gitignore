@@ -1,1 +1,46 @@
 *.meta
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Unity-specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Archivos de Visual Studio (si se usa)
+.vs/
+.vscode/
+.idea/
+
+# Archivos de configuración del proyecto (si no se usan)
+*.user
+*.userprefs
+*.suo
+*.sln
+*.csproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Archivos de Unity sin versionar (si se usa UPM y dependencias de Package Manager)
+Packages/manifest.json
+Packages/packages-lock.json
+
+# Archivos que pueden ser generados por el editor pero no necesarios
+sysinfo.txt
+
+# Archivos de Git LFS
+*.psd
+*.png
+*.jpg
+*.fbx
+*.wav
+*.mp4

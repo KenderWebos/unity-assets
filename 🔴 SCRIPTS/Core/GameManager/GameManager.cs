@@ -30,8 +30,6 @@ public class GameManager : MonoBehaviour
     [Header("References")]
     public SaveSystem saveSystem;
     public EventSystem eventSystem;
-    public AudioManager audioManager;
-    public UIManager uiManager;
 
     private float lastAutoSaveTime;
 
@@ -72,8 +70,6 @@ public class GameManager : MonoBehaviour
     {
         if (saveSystem == null) saveSystem = GetComponent<SaveSystem>();
         if (eventSystem == null) eventSystem = GetComponent<EventSystem>();
-        if (audioManager == null) audioManager = GetComponent<AudioManager>();
-        if (uiManager == null) uiManager = GetComponent<UIManager>();
     }
 
     public void SetGameState(GameState newState)
